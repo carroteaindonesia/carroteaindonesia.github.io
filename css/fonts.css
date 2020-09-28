@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Action Man Bold';
+    src: url('../fonts/Action_man/Action-Man-Bold.ttf');
+}
+@font-face {
+    font-family: 'Action Man Bold Italic';
+    src: url('../fonts/Action_man/Action-Man-Bold-Italic.ttf');
+}

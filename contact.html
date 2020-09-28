@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Website Icon -->
+    <link rel="icon" href="assets/img/icon-carrotea.png">
+    <title>Kontak | Carrotea</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Smooth Product CSS -->
+    <link rel="stylesheet" href="css/smoothproducts.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Fonts Awesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://kit.fontawesome.com/2e2ad5df7d.js" crossorigin="anonymous"></script>
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Aos Animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <section id="header">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12 col-md-12 header-area">
+                <a href="index.html">
+                    <img src="assets/img/logo-carrotea.png" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
+  </section>
+    <!-- Start Navbar -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        
+        <div class="container navigasi-bar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto w-100 justify-content-center">
+                    <li class="nav-item">
+                    <a class="nav-link" href="produk.html">
+                      <i class="fas fa-carrot"></i> Produk Kami</a>
+                    </li>
+                    <li class="nav-item ">
+                    <a class="nav-link" href="profil.html"><i class="fas fa-sign-language"></i> Tentang Kami</a>
+                    </li>
+                    <li class="nav-item ">
+                    <a class="nav-link" href="team.html"><i class="fas fa-users"></i> Tim Kami</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="contact.html"><i class="fas fa-phone-alt"></i> Hubungi Kami</a>
+                    </li>
+                </ul>
+            </div>
+         </div>
+      </nav>
+    
+    <!-- End Navbar -->
+
+    <!-- Start Jumbotron -->
+    <section id="jumbotron" data-aos="zoom-in" data-aos-duration="3000">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <img src="assets/banner/deal.jpg" class="img-fluid">
+        </div>
+      </div>
+    </section>
+    <!-- End Jumbotron -->
+
+    <!-- Start Main -->
+    <main class="site-main"> 
+        <section class="contact-carrotea">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h1 class="text-center">
+                            <span class="element_circ_a">
+                            <i class="fas fa-phone-alt"></i>
+                            </span>
+                                Hubungi Kami
+                            <span class="element_circ_b">
+                            <i class="fas fa-phone-alt flip"></i>
+                            </span>
+                          </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="row">
+                  <div class="col-lg-8 mb-5">
+                      <p class="para">Jika Anda memiliki saran, kritik atau pertanyaan mengenai produk dan layanan Carrotea, silakan mengirimkan email pertanyaan melalui form di bawah ini. Kami siap memberikan penjelasan lebih lanjut mengenai pertanyaan dari Anda.</p>
+                    <form
+                      id="contact-form"
+                      action="contact_form_handler.php"
+                      method="POST"
+                    >
+                      <div class="form-group row">
+                        <div class="col-md-6 mb-4 mb-lg-0">
+                          <input
+                            name="name"
+                            type="text"
+                            class="form-control"
+                            placeholder="Nama Lengkap"
+                            required
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <input
+                            name="email"
+                            type="email"
+                            class="form-control"
+                            placeholder="Alamat E-Mail"
+                            required
+                          />
+                        </div>
+                      </div>
+      
+                      <div class="form-group row">
+                        <div class="col-md-12">
+                          <input
+                            name="subject"
+                            type="text"
+                            class="form-control"
+                            placeholder="Judul"
+                            required
+                          />
+                        </div>
+                      </div>
+      
+                      <div class="form-group row">
+                        <div class="col-md-12">
+                          <textarea
+                            name="message"
+                            id=""
+                            class="form-control"
+                            placeholder="Tulis Pesan..."
+                            cols="30"
+                            rows="10"
+                            required
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-md-6 mr-auto">
+                          <input
+                            type="submit"
+                            class="btn btn-block button btn-primary text-white py-3 px-5"
+                            value="Send Message"
+                          />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-lg-4 ml-auto contact-info">
+                    <div class="bg-white p-3 p-md-5">
+                      <h3 class="text-black mb-4">Info Kontak</h3>
+                      <ul class="list-unstyled footer-link">
+                        <li class="d-block mb-3">
+                          <i class="fas fa-home fa-2x"></i>
+                          <h4 class="d-block text-black mb-0">
+                            <a
+                              href="https://goo.gl/maps/ijvc4U8J6XRN4iEn8"
+                              target="_blank"
+                              >Kalibata - Jakarta Selatan</a
+                            >
+                          </h4>
+                          <p class="d-block para">Jl. Kampus Trilogi d.h STEKPI No. 1</p>
+                        </li>
+      
+                        <li class="d-block mb-3">
+                          <i class="fab fa-whatsapp fa-2x"></i>
+                          <h5 class="d-block text-black mb-0">
+                            <a
+                              href="https://api.whatsapp.com/send?phone=6281269501100&text=&source=&data="
+                              >0812-6950-1100</a
+                            >
+                          </h5>
+                          <p class="d-block para">WhatsApp</p>
+                        </li>
+      
+                        <li class="d-block mb-3">
+                          <i class="fas fa-envelope fa-2x"></i>
+                          <h5 class="d-block text-black mb-0">
+                            <a href="mailto:carrotea.id@gmail.com"
+                              >carrotea.id@gmail.com</a
+                            >
+                          </h5>
+                          <p class="d-block para"></p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+    <footer>
+      <!-- up section -->
+      <div class="up-section">
+        <a href="index.html">
+          <img src="assets/img/logo-carrotea.png" class="logo-brand img-fluid">
+        </a>
+        <ul>
+          <h4 class="profile">Profil</h4>
+          <li><a href="produk.html">Produk</a></li>
+          <li><a href="profil.html">Tentang Kami</a></li>
+          <li><a href="team.html">Tim Kami</a></li>
+          <li><a href="contact.html">Hubungi Kami</a></li>
+        </ul>
+        <div class="social text-center">
+          <h4>Media Sosial</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/carrotea_4/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCLgVlrGi9-zvpwbZi2TMSoA?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <!-- contact us -->
+        <ul>
+          <div class="support text-center">
+            <h4>Didukung oleh :</h4>
+            <li><img src="assets/img/logo-trilogi.png" class="img-fluid"></li>
+            <li>
+                <img src="assets/img/logo-kemendikbud.png" class="img-fluid logo-kemendikbud">
+                <img src="assets/img/logo-simbelmawa.png" class="img-fluid">
+            </li>
+        </div>
+        </ul>
+      </div>
+      <!-- copyright -->
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <p class="copyright text-center">© Carrotea 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- JavaScript -->
+
+    <!-- jQuery JS -->
+    <script src="js/jquery.3.4.1.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Smooth Product JS -->
+    <script src="js/smoothproducts.min.js"></script>
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Aos Animate -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+    <script>
+      $(function(){
+		      $(".sp-wrap").smoothproducts();
+	    });
+    </script>
+    </body>
+</html>

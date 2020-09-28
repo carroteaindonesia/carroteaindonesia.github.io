@@ -1,0 +1,552 @@
+
+@media (max-width: 575.98px) {
+    h1 {
+        margin-top: 50px;
+    }
+    .jumbotron {
+        width: 100%;
+        height: 30vh;
+    }
+    .jumbotron img {
+        width: 100%;
+        height: 30vh;
+    }
+    
+    /* Produk HTML */
+    .carousel-item img {
+        width: 100%;
+        height: 25vh;
+    }
+    .about-produk h1,
+    .prototipe-produk h1,
+    .profil-carrotea h1,
+    .team-carrotea h1,
+    .contact-carrotea h1,
+    .tips-area h1,
+    .produk-kami h2,
+    .video-carrotea h1 {
+        font-size: 30px;
+    }
+    .about-produk p {
+        font-size: 14px;
+    }
+    .prototipe-produk {
+        margin-top: 0px;
+    }
+    .produk-detail-kiri, .produk-detail-kanan {
+        width: 100%;
+    }
+    .produk-detail-kanan {
+        margin-top: 10px;
+    }
+    .produk-detail-kanan h3 {
+        font-size: 18px;
+    }
+    .produk-detail-kanan h3 > small {
+        font-size: 14px;
+    }
+    .produk-detail-kanan h5 {
+        font-size: 16px;
+    }
+    .produk-detail-kanan .add {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    .produk-detail-kanan .review {
+        font-size: 16px;
+        padding: 5px 5px;
+    }
+    .produk-detail-kanan .buy {
+        font-size: 16px;
+        padding: 15px 10px;
+        width: 80%;
+    }
+    
+    /* Profil HTML */
+    .visi-misi {
+        margin-bottom: 0px;
+    }
+    .visi-misi .visi-misi-body {
+        height: auto;
+    }
+    .visi-misi .visi-misi-body .visi-misi-img img {
+        max-height: 75px;
+    }
+    .visi-misi .visi-misi-body .visi-misi-img img.eye-icon {
+        max-width: 110px;
+        height: 75px;
+    }
+    .visi-misi .visi-misi-heading h3 {
+        font-size : 20px
+    }
+
+    /* index html */
+    .container-tips .box-custom {
+        margin: 10px 0;
+    }
+    .container-tips .box-custom .img-artikel h2,
+    .container-tips .box-custom:hover .img-artikel h2 {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .container-tips .box-custom .img-artikel p,
+    .container-tips .box-custom:hover .img-artikel p {
+        font-size: 10px;
+    }
+    .video-carrotea .youtube-vid iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    /* footer */
+    .up-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .up-section .logo-brand {
+        margin-bottom: 30px;
+    }
+    .up-section ul h4, .social h4 {
+        font-size: 16px;
+    }
+    .up-section ul li {
+        text-align: center;
+        margin: 10px;
+    }
+    .up-section ul li a {
+        font-size: 12px;
+    }
+    .social {
+        margin-top: 30px;
+    }
+    .social-icons {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* TIM HTML */
+    .team-carrotea h1,
+    .tips-area h1,
+    .video-carrotea h1 {
+        font-size: 26px;
+    }
+    .custom-card {
+        max-width: 250px;
+    }
+    .custom-card .imgBx {
+        max-width: 180px;
+        left: 15px;   
+    }
+    .custom-card .imgBx img {
+        max-width: 180px;
+    }
+
+    /* Index HTML */
+    .container-tips .box-custom {
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+    }
+    
+    
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .custom-card .imgBx {
+        max-width: 180px;
+        left: 30px;   
+    }
+    /* Index HTML */
+    .container-tips .box-custom {
+        width: 200px;
+        height: 200px;
+        margin-left: 70px;
+    }
+    
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .custom-card .imgBx {
+        max-width: 180px;
+        left: 30px;   
+    }
+    /* Index HTML */
+    .container-tips .box-custom {
+        width: 200px;
+        height: 200px;
+        margin-left: 90px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px)  {
+
+    .jumbotron {
+        width: 100%;
+        height: 50vh;
+    }
+    .jumbotron img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    h1::before {
+        background-color:  #ff6a00;
+        display: block;
+        width: 150px;
+        height: 2px;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        z-index: -2;
+    }
+    h1::after {
+        background-color:  #ff6a00;
+        display: block;
+        width: 150px;
+        height: 2px;
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: -2;
+    }
+
+    .tips-area h1::before, .video-carrotea h1::before {
+        background-color:  #ff6a00;
+        display: block;
+        width: 100px;
+        height: 2px;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        z-index: -2;
+    }
+    .tips-area h1::after, .video-carrotea h1::after {
+        background-color:  #ff6a00;
+        display: block;
+        width: 100px;
+        height: 2px;
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: -2;
+    }
+
+    span.element_circ_a::before {
+      content: '';
+      background: #fffffe;
+      display: inline-block;
+      position: absolute;
+      border-radius: 50%;
+      border: 2px solid #ff6a00;
+      left: 0px;
+      top: 30%;
+      width: 20px;
+      height: 20px;
+      z-index: 1;
+    }
+    span.element_circ_b::before {
+        content: '';
+        background: #fffffe;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 2px solid #ff6a00;
+        right: 0px;
+        top: 30%;
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+      }
+      .video-carrotea .youtube-vid iframe {
+        width: 500px;
+        height: 300px;
+    }
+      /* Profil HTML */
+    .visi-misi {
+        margin-bottom: 0px;
+    }
+    .visi-misi .visi-misi-body {
+        height: auto;
+    }
+    .visi-misi .visi-misi-body .visi-misi-img img {
+        max-height: 100px;
+    }
+    .visi-misi .visi-misi-body .visi-misi-img img.eye-icon {
+        max-width: 135px;
+        height: 100px;
+    }
+    .visi-misi .visi-misi-heading h3 {
+        font-size : 20px
+    }
+
+    .custom-card .imgBx {
+        left: 30px;   
+    }
+
+    /* Index HTML */
+    .container-tips .box-custom {
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    .container-tips .box-custom .img-artikel h2,
+    .container-tips .box-custom:hover .img-artikel h2 {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .container-tips .box-custom .img-artikel p,
+    .container-tips .box-custom:hover .img-artikel p {
+        font-size: 10px;
+    }
+    .produk-kami h2 {
+        font-size: 36px;
+    }
+      
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .jumbotron {
+        width: 100%;
+        height: 50vh;
+    }
+    .jumbotron img {
+        width: 100%;
+        
+    }
+
+    h1::before {
+        background-color:  #ff6a00;
+        display: block;
+        width: 250px;
+        height: 2px;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        z-index: -2;
+    }
+    h1::after {
+        background-color:  #ff6a00;
+        display: block;
+        width: 250px;
+        height: 2px;
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: -2;
+    }
+    span.element_circ_a::before {
+      content: '';
+      background: #fffffe;
+      display: inline-block;
+      position: absolute;
+      border-radius: 50%;
+      border: 2px solid #ff6a00;
+      left: 0px;
+      top: 30%;
+      width: 20px;
+      height: 20px;
+      z-index: 1;
+    }
+    span.element_circ_b::before {
+        content: '';
+        background: #fffffe;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 2px solid #ff6a00;
+        right: 0px;
+        top: 30%;
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+      }
+      .custom-card .imgBx img {
+          width: 170px;
+      }
+      .custom-card .imgBx {
+        right: 10px;   
+    }
+    .container-tips .box-custom .img-artikel h2,
+    .container-tips .box-custom:hover .img-artikel h2 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .container-tips .box-custom .img-artikel p,
+    .container-tips .box-custom:hover .img-artikel p {
+        font-size: 12px;
+    }
+ }
+
+@media (min-width: 1200px) and (max-width: 1439px){
+
+        .jumbotron img {
+            width: 100%;
+            margin-top: -50px;
+        }
+        h1::before {
+            background-color:  #ff6a00;
+            display: block;
+            width: 350px;
+            height: 2px;
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            z-index: -2;
+        }
+        h1::after {
+            background-color:  #ff6a00;
+            display: block;
+            width: 350px;
+            height: 2px;
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            z-index: -2;
+        }
+        span.element_circ_a::before {
+          content: '';
+          background: #fffffe;
+          display: inline-block;
+          position: absolute;
+          border-radius: 50%;
+          border: 2px solid  #ff6a00;
+          left: 0px;
+          top: 30%;
+          width: 20px;
+          height: 20px;
+          z-index: 1;
+        }
+        span.element_circ_b::before {
+            content: '';
+            background: #fffffe;
+            display: inline-block;
+            position: absolute;
+            border-radius: 50%;
+            border: 2px solid  #ff6a00;
+            right: 0px;
+            top: 30%;
+            width: 20px;
+            height: 20px;
+            z-index: 1;
+          }
+
+          .tips-area h1::before,
+          .video-carrotea h1::before {
+            background-color:  #ff6a00;
+            display: block;
+            width: 300px;
+            height: 2px;
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            z-index: -2;
+        }
+        .tips-area h1::after,
+        .video-carrotea h1::after {
+            background-color:  #ff6a00;
+            display: block;
+            width: 300px;
+            height: 2px;
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            z-index: -2;
+        }
+    }
+
+@media (min-width: 1440px) {
+    .jumbotron {
+        height: 50vh;
+    }
+
+    h1::before {
+        background-color:  #ff6a00;
+        display: block;
+        width: 350px;
+        height: 2px;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        z-index: -2;
+    }
+    h1::after {
+        background-color:  #ff6a00;
+        display: block;
+        width: 350px;
+        height: 2px;
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: -2;
+    }
+    span.element_circ_a::before {
+      content: '';
+      background: #fffffe;
+      display: inline-block;
+      position: absolute;
+      border-radius: 50%;
+      border: 2px solid  #ff6a00;
+      left: 0px;
+      top: 30%;
+      width: 20px;
+      height: 20px;
+      z-index: 1;
+    }
+    span.element_circ_b::before {
+        content: '';
+        background: #fffffe;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 2px solid  #ff6a00;
+        right: 0px;
+        top: 30%;
+        width: 20px;
+        height: 20px;
+        z-index: 1;
+      }
+
+      .tips-area h1::before {
+        background-color:  #ff6a00;
+        display: block;
+        width: 300px;
+        height: 2px;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        z-index: -2;
+    }
+    .tips-area h1::after {
+        background-color:  #ff6a00;
+        display: block;
+        width: 300px;
+        height: 2px;
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: -2;
+    }
+}
